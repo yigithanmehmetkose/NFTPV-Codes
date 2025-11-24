@@ -1,12 +1,12 @@
 def sel_em_TPV(x,N_a,N_d,wp_eS,gam_eS,wp_cS,gam_cS):
 
-    #x = x.cpu().item()
-    #N_a = N_a.cpu().item()
-    #N_d = N_d.cpu().item()
-    #wp_eS = wp_eS.cpu().item()
-    #gam_eS = gam_eS.cpu().item()
-    #wp_cS = wp_cS.cpu().item()
-    #gam_cS = gam_cS.cpu().item()
+    x = x.cpu().item()
+    N_a = N_a.cpu().item()
+    N_d = N_d.cpu().item()
+    wp_eS = wp_eS.cpu().item()
+    gam_eS = gam_eS.cpu().item()
+    wp_cS = wp_cS.cpu().item()
+    gam_cS = gam_cS.cpu().item()
 
     from MESH import SimulationPlanar
     from InSb import InSb
